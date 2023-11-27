@@ -3,8 +3,8 @@
 </script>
 
 
-<div class="flex p-3 justify-center translate-y-1/4">
-    <div class="grid col-start-2 w-full max-w-md ">
+<div class="">
+    <div class="w-full max-w-md ">
         <form class="flex flex-col space-y-6" action="/">
             <h3 class="text-xl font-medium text-gray-900 dark:text-white">Sign in to our platform</h3>
             <Label class="space-y-2">

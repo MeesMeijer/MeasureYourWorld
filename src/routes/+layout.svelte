@@ -9,13 +9,15 @@
 </script>
   
 <NavBar onClick={()=> hidden = !hidden}></NavBar>
-<div class="flex flex-row">
-    <div class="transition-transform   {hidden ? "-translate-x-full sm:translate-x-0 max-sm:hidden" : ""}">
+<div class="flex ">
+    <div class="transition-transform  {hidden ? "-translate-x-full sm:translate-x-0 max-sm:hidden" : ""}">
         <SideBar></SideBar>
     </div>
 
-    <div class="flex">
-        <slot/>
+    <div class="flex-col">
+        <div class="">
+            <slot/>
+        </div>
     </div>
     <!-- <slot></slot> -->
 </div>

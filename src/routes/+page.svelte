@@ -28,7 +28,7 @@
 
 </script>
 
-<div class="flex flex-wrap">
+<div class="flex ">
 
     {#each sensors as sensor}
         <DataView type={sensor.type} options={sensor}></DataView>
