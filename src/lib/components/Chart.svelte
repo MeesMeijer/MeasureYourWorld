@@ -4,8 +4,8 @@
 
     export let data: Array<[number,any]> | undefined;
 
-    let dataList: any[] = []
-    let categoriesList: any[] = []
+    let dataList: any[] = [0]
+    let categoriesList: any[] = [0]
 
     data?.forEach(e => {
         dataList.push(e[0])

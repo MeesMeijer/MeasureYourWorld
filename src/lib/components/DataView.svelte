@@ -9,7 +9,7 @@
 
     import Chart from "./Chart.svelte";
 
-    export let type: string = "gauge" || "chart";
+    export let type = "gauge" || "chart";
     export let options: DataViewOptions;
     
     type DataViewOptions  = {

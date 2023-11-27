@@ -5,7 +5,6 @@
 
     $:  sensors = [
             {
-                gaugeData: [12],
                 sensor: { 
                     name: 'Sensor 1',
                     uuid: "111-111-111-111",
@@ -16,9 +15,6 @@
                 type: "gauge"
             },
             {
-                chartData: [
-                    [10, 1],[11, 2],[-2, 3],[-6, 4],[13, 5],[12, 6]
-                ],
                 sensor: { 
                     name: 'Sensor 2',
                     uuid: "222-222-222-222",

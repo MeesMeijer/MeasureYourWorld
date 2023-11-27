@@ -15,7 +15,8 @@
 		MailBoxSolid,
 		UserSolid,
 		ArrowRightToBracketSolid,
-		FileEditSolid
+		FileEditSolid,
+		PlusSolid
 	} from 'flowbite-svelte-icons';
 	let spanClass = 'flex-1 ml-3 whitespace-nowrap';
 </script>
@@ -32,7 +33,7 @@
 			</SidebarItem>
 			<SidebarDropdownWrapper label="Add">
 				<svelte:fragment slot="icon">
-					<ShoppingCartSolid
+					<PlusSolid
 						class="w-5 h-5 text-gray-500 transition duration-75 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white"
 					/>
 				</svelte:fragment>

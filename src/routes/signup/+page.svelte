@@ -3,7 +3,7 @@
 </script>
 
 
-<div class="flex p-3 justify-center translate-y-1/4">
+<div class="">
     <div class="grid col-start-2 w-full max-w-md ">
         <form class="flex flex-col space-y-6" action="/">
             <h3 class="text-xl font-medium text-gray-900 dark:text-white">Register to our platform</h3>
@@ -17,13 +17,10 @@
             </Label>
             <div class="flex items-start">
                 <Checkbox>Remember me</Checkbox>
-                <a href="/" class="ml-auto text-sm text-primary-700 hover:underline dark:text-primary-500">
-                    Lost password?
-                </a>
             </div>
-            <Button type="submit" class="w-full">Register</Button>
+            <Button type="submit" class="w-full" color={"blue"}>Register</Button>
             <div class="text-sm font-medium text-gray-500 dark:text-gray-300">
-                Already have an account? <a href="../signin" class="text-primary-700 hover:underline dark:text-primary-500">
+                Already have an account? <a href="../signin" class="text-blue-700 hover:underline dark:text-blue-500">
                     Login
                 </a>
             </div>

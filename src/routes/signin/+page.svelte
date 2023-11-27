@@ -14,17 +14,19 @@
             <Label class="space-y-2">
                 <span>Your password</span>
                 <Input type="password" name="password" placeholder="•••••" required />
+             
             </Label>
             <div class="flex items-start">
                 <Checkbox>Remember me</Checkbox>
-                <a href="/" class="ml-auto text-sm text-primary-700 hover:underline dark:text-primary-500">
-                    Lost password?
-                </a>
             </div>
-            <Button type="submit" class="w-full">Login to your account</Button>
-            <div class="text-sm font-medium text-gray-500 dark:text-gray-300">
-                Not registered? <a href="../signup" class="text-primary-700 hover:underline dark:text-primary-500">
+        
+            <Button type="submit" class="w-full" color="blue" >Login to your account</Button>
+            <div class="flex-row text-sm font-medium text-gray-500 dark:text-gray-300">
+                Not registered? <a href="../signup" class="text-blue-700 hover:underline dark:text-blue-500">
                     Create account
+                </a>
+                <a href="/" class="text-sm text-blue-700 hover:underline dark:text-blue-500">
+                    Lost password?
                 </a>
             </div>
         </form>
